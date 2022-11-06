@@ -1,0 +1,11 @@
+[Unit]
+Description=Juniper temp monitoring service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/t/programming/jtempmon/venv/bin/python /home/t/programming/jtempmon/release/jtempmon.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
