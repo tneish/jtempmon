@@ -27,6 +27,7 @@ Change the `sleep_time_secs` variable in `jtempmon.py` with your desired poll ti
 Copy to release dir (separate release from development version)
 ---------------------------------------------------------------
 ```
+$ mkdir release
 $ cp jtempmon.py db.kdbx release
 ```
 
