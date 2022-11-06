@@ -20,6 +20,10 @@ Update Login Details
 --------------------
 Use your favourite [KeePass db editor](https://keepass.info) to update URLs, IP addresses, usernames, passwords, influxdb token, etc in the keepass database file, `db.kdbx`.
 
+(Optional) Update poll time
+---------------------------
+Change the `sleep_time_secs` variable in `jtempmon.py` with your desired poll time. By default, the script will poll every minute, not including time taken to poll the device and store the values in influxdb.
+
 Copy to release dir (separate release from development version)
 ---------------------------------------------------------------
 ```
