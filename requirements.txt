@@ -1,7 +1,7 @@
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 bcrypt==4.0.1
-certifi==2022.9.24
+certifi==2023.7.22
 cffi==1.15.1
 construct==2.10.68
 cryptography==38.0.3
